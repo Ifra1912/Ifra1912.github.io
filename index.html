@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head><style>
+    .topnav{
+        float:left;
+        background-color:gainsboro;
+        width: 98%;
+        font-size: 17px;
+        text-decoration:none;
+        padding: 14px 16px;
+        border-radius: 20px;}
+
+    .topnav a{
+        float:left;
+        background-color:gainsboro;
+        font-size: 17px;
+        text-decoration:none;
+        padding: 14px 16px;
+    }
+    .topnav .search-container{
+        float:right;
+    }
+    .topnav input[type=text]{
+        padding: 6px;
+        margin-top:8px;
+        font-size: 17px;
+        border: none;
+    }
+    .topnav .search-container button{float:left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    }
+    .outer {
+        border-radius:5px;
+        background-color:gainsboro;
+        float: left;
+        width: 55%;
+        height: 500px;
+        margin: 0px auto;
+        border: 1px solid black;
+}
+    .inner {
+        background-color:white;
+        width: auto;
+        height: 327px;
+        margin: 152px 25px 25px 22px;
+        border: 1px solid black;
+        border-radius:5px;
+}
+
+.felex-test {
+    float:left;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+    height: auto;
+    border: 2px solid black;
+    align-items: center;
+}
+.flex-child{
+    border: 1px solid red;
+    width: 200px;
+}
+.column {
+  flex: 25%;
+  padding: 20px;
+}
+.smallbox{
+    float:left;
+    height: 104px;
+    width:  141px;
+    margin: 25px 25px 25px 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: white;
+    }
+.rightsmallbox{
+    margin:21px 29px 27px 72px;
+    height:250px;
+    width: 478px;
+    border-radius:5px;
+    border: 1px solid black;
+}
+    .linebox{
+        border: 1px solid black;
+        background-color: gainsboro;
+        width: 80%;
+        border-radius:5px;
+
+    }
+    table, th, td {
+      
+    border: 1px solid white;
+    table-layout: auto;
+    width: auto;
+    }
+
+    footer{
+        margin: 0px 0px 0px 0px;
+        float: left;
+        text-size-adjust: 40px ;
+        text-align: left;
+        left: 0;
+        bottom:0;
+        color: white;
+        width: 100%;
+    }
+    .divider {
+        font-style: normal;
+        height: 10px;
+    	border-left: 1px solid rgb(12, 10, 10);
+    }
+    </style>
+</head>
+<body>
+<div>
+    <img style="margin-left: 20px;" src= "D:\project1\linkedin.png" alt=linkedin logo width = 100px; margin left: 10px>
+    <span style="float:right; height:50px; margin:10px"><a href="Add Connections">Add Connections</a></span></body><div>
+ 
+    <div class="topnav">
+        <a href="#Home">Home</a>
+        <a href="#Profile">Profile</a>
+        <a href="#Contacts">Contacts</a>
+        <a href="#Groups">Groups</a>
+        <a href="#Job">Job</a>
+        <a href="#Inbox">Inbox</a>
+        <a href="#contact">Companies</a>
+        <a href="#News">News</a>
+        <a href="#More">More</a>
+        <div class= "search-container">
+            <form action="/action_page.php">
+            <input type="text" name="search">
+            <button type="People">People</button>
+            <input type="checkbox" id="Advanced" name="Advanced" value="Advanced">Advanced</input>
+            </form>
+        </div>
+    </div>
+<div>
+    <p style="text-align:center">Advertisement text here.Advertisement text here. Advertisement text here</p>
+</div>
+<div>
+    <p style="text-size:17px;">People</p>
+    <hr style="width:100%; text-align:left; margin-left:0;"></div>
+    <div>
+        <span style="width:40%; float:right;"><button class="linebox">Suggest a profile update for John</button>
+        <hr>
+    <p>Send John a message</p>
+<p> Recommend John</p>
+<p> Save John's Profile</p><hr>
+<div class="rightsmallbox"><img src="D:\project1\linkedin.png" style="padding:30px; height:100px;"></div>
+<div class="rightsmallbox"></div>
+<div class="rightsmallbox"></div>    
+</span>   
+    <div class="outer">
+    <div class="smallbox"><img src=images.jpg style="border:1px solid black; width:71%; height:73% ; margin: 14px 15px 11px 19px;">
+    
+    </div>
+    <div class="inner">
+        
+        <p>
+            <span style="padding:10px">Current</span><span style="padding:210px">*Job Title at Company Name</span><hr>
+            <span style="padding:10px">Past</span><span style="padding:230px">*Job Title at Company Name</span>
+            <p style="padding-left:275px;">*Job Title at Company Name</p><hr>
+            <span style="padding:10px">Education</span><span style="padding:190px">*College Name</span><hr>
+            <span style="padding:10px">Recommendations</span><span style="padding:135px">*3 People have recommended John</span><hr>
+            <span style="padding:10px">Connections</span><span style="padding:175px">367 connections</span><hr>
+            <span style="padding:10px">Public Profile</span><span style="padding:160px">*http://www.linkedin.com/pub/john-doe</span><hr>
+        </p>
+        <p style="padding-top:70px;"><b>Summary</b></p>
+        <p style=" text-align: justify; width:100%">Google was founded in September 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California. Together they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a California privately held company on September 4, 1998, in California. Google was then reincorporated in Delaware on October 22, 2002.[13] An initial public offering (IPO) took place on August 19, 2004, and Google moved to its headquarters in Mountain View, California, nicknamed the Googleplex. In August 2015, Google announced plans to reorganize its various interests as a conglomerate called Alphabet Inc. Google is Alphabet's leading subsidiary and will continue to be the umbrella company for Alphabet's Internet interests. Sundar Pichai was appointed CEO of Google, replacing Larry Page who became the CEO of Alphabet.</p>
+    <p><b>Experience</b></p>
+    <p><b>Job Title</b></p>
+    <p><b>Company Name</b></p>
+    <p><b>Type of Company:Industry</b></p>
+    <p><b>Date-Present(X months)</b></p>
+    <p style="text-align:justify">The b element represents a span of text to which attention is being drawn for utilitarian purposes without conveying any extra importance and with no implication of an alternate voice or mood, such as key words in a document abstract, product names in a review, actionable words in interactive text-driven software, or an article lede.</p>
+    <p><b>Eduation</b></p>
+    <p><b>College Name</b></p>
+    <p><b>Type of Degree</b></p>
+    <p> 2003-2009 <p>
+        <p><b>Activities and societies</b></p>
+        <p><b> Contact settings</b></p>
+    </div> 
+    
+
+</div>
+</div>
+<footer style="padding-top:150px;">
+<div>
+    <hr style="padding-bottom:10px">
+    <a href="#Help Center"><b>Help Center</b></span>
+    <a class="divider" href="#About"> About </span>
+    <a class="divider" href="#Blog">Blog</a>
+    <a class="divider" href="#Careers">Careers</a>
+    <a class="divider" href="#Advertising">Advertising</a>
+    <a class="divider" href="#Recruiting">Recruiting</a>
+    <a class="divider" href="#Tools">Tools</a>
+    <a class="divider" href="#Mobile">Mobile</a>
+    <a class="divider" href="Blog">Blog</a>
+    <a class="divider" href="Upgrade my Account"><b>Upgrade my Account</b></a>
+
+    <div style="margin:30px 0px 0px 0px;">
+        <a href=#Linkedin>LinkedIn Corporation c 2011</a>
+        <a href=#UserAgreement>User Agreement</a> 
+        <a href=#privacy>Privacy Policy</a>
+        <a href=#copyright>Copyright Policy</a>
+        <a href=#sendfeedback>Send Feedback</a>
+    </div>
+</div>
+</footer>
